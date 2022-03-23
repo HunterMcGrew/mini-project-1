@@ -1,0 +1,70 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header-div {
+    position: fixed;
+    background-color: bisque;
+    width: 100%;
+    margin-top: -20px;
+    margin-left: -8px;
+    z-index: 999;
+}
+
+.content {
+    position: relative;
+    top: 100px;
+}
+/* header {
+    position: fixed;
+    background-color: bisque;
+    width: 100%;
+}
+*/
+
+ul {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+main {
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+footer {
+    text-align: center;
+    background-color: black;
+    height: 75px;
+    color: white;
+}
+
+footer h2 {
+    position: relative;
+    top: 25px;
+}
